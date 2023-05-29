@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fun Page</title>
+  <link rel="stylesheet" href="../CSS/project.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="output-container">
+      <h1 class="output-container-heading">Output</h1>
+      <div class="output-container-text">
+        Show me a meme
+        <img src="../Images/Meme1.png" class="meme-hidden" id="meme-1" />
+        <img src="../Images/Meme2.png" class="meme-hidden" id="meme-2" />
+        <img src="../Images/Meme3.png" class="meme-hidden" id="meme-3" />
+        <img src="../Images/Meme4.png" class="meme-hidden" id="meme-4" />
+        <img src="../Images/Meme5.png" class="meme-hidden" id="meme-5" />
+      </div>
+      <div class="output-container-text">
+        Tell me something funny!
+        <p class="joke-hidden" id="joke-1">
+          Two bytes meet. The first byte asks, “Are you ill?” The second byte
+          replies, “No, just feeling a bit off.”
+        </p>
+        <p class="joke-hidden" id="joke-2">
+          There are only 10 kinds of people in this world: those who know
+          binary and those who don’t.
+        </p>
+        <p class="joke-hidden" id="joke-3">
+          A programmer walks to the butcher shop and buys a kilo of meat. An
+          hour later he comes back upset that the butcher shortchanged him by
+          24 grams.
+        </p>
+        <p class="joke-hidden" id="joke-4">
+          Programming is 10% science, 20% ingenuity, and 70% getting the
+          ingenuity to work with the science.
+        </p>
+        <p class="joke-hidden" id="joke-5">
+          How many programmers does it take to change a light bulb? None –
+          It’s a hardware problem.
+        </p>
+      </div>
+      <div class="output-container-text">
+        Give me some wisdom...
+        <p class="quote-hidden" id="quote-1">
+          The fool doth think he is wise, but the wise man knows himself to be
+          a fool.
+        </p>
+        <p class="quote-hidden" id="quote-2">
+          It is better to remain silent at the risk of being thought a fool,
+          than to talk and remove all doubt of it.
+        </p>
+        <p class="quote-hidden" id="quote-3">
+          Knowing yourself is the beginning of all wisdom.
+        </p>
+        <p class="quote-hidden" id="quote-4">
+          The only true wisdom is in knowing you know nothing.
+        </p>
+        <p class="quote-hidden" id="quote-5">
+          May you live every day of your life.
+        </p>
+      </div>
+      <div class="output-container-text">
+        I want a riddle
+        <p class="riddle-hidden" id="riddle-1">
+          What goes up but never comes down?
+        <p class="riddle-answer-hidden" id="riddle-answer-1">- Your Age</p>
+        </p>
+        <p class="riddle-hidden" id="riddle-2">
+          I shave every day, but my beard stays the same. What am I?
+        <p class="riddle-answer-hidden" id="riddle-answer-2">- A Barber</p>
+        </p>
+        <p class="riddle-hidden" id="riddle-3">
+          You see a boat filled with people, yet there isn’t a single person on board. How is that possible?
+        <p class="riddle-answer-hidden" id="riddle-answer-3">- All the people on the boat are married.</p>
+        </p>
+        <p class="riddle-hidden" id="riddle-4">
+          You walk into a room that contains a match, a kerosene lamp, a candle and a fireplace. What would you light
+          first?
+        <p class="riddle-answer-hidden" id="riddle-answer-4">- The match</p>
+        </p>
+        <p class="riddle-hidden" id="riddle-5">
+          A man dies of old age on his 25 birthday. How is this possible?
+        <p class="riddle-answer-hidden" id="riddle-answer-5">- He was born on February 29.</p>
+        </p>
+      </div>
+    </div>
+    <div class="actions-container">
+      <h1 class="actions-container-heading">Actions</h1>
+      <button class="actions-container-btn" id="meme-btn">Show a Meme</button>
+      <button class="actions-container-btn" id="joke-btn">
+        Tell Me a Joke
+      </button>
+      <button class="actions-container-btn" id="quote-btn">
+        Random Quote
+      </button>
+      <div class="riddle-btn-container">
+        <button class="actions-container-btn" id="riddle-btn">Riddle Me</button>
+        <button id="riddle-answer-btn">Reveal Riddle Answer</button>
+      </div>
+    </div>
+  </div>
+  <script src="../JavaScript/project.js"></script>
+</body>
+
+</html>
